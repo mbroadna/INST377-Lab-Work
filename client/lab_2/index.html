@@ -6,57 +6,86 @@
     </head>
     <body>
         
-        <h2>
-            Selectors <br/>
-            Main Page
-        </h2>
-
-        <h2>First, the basics. </h2>
-
-        <p>You need the following to build your website.</p>
-        <ul>
-            <li>HTML and CSS</li>
-            <li>Javascript</li>
-            <li>Node.js</li>
-            <li>And other web development frameworks</li>
-          </ul>
-
-        <p>You should list your top 3 goals for the class below.</p>
-        <ol>
-            <li>Learn new programming langauges</li>
-            <li>Get more familiar with web dev tools</li>
-            <li>Become more confident in my coding skills </li>
-          </ol>
-
-        <h2> Let's Try Some Inline Elements </h2>
         
-        <p>Sometimes you want to <em>draw attention to something</em> in a line of text.
-        <p>Sometimes you want to <strong>strongly emphasize something</strong> in the text.</p>
-        <p>Sometimes you want to <em><strong>do both</strong></em></p>
+        <div class="wrapper">
+            <h1 class="title">
+                Merline Broadnax Lab 2: Intro to HTML
+            </h1>
+            <nav>
+                <a href="selectors.html">Selectors</a>
+                <a href="index.html">Main Page</a>
+            </nav>
 
-        <h2> Empty Elements</h2>
+            <h2 class="subtitle">First, the basics. </h2>
 
-        <p>
-            Soft line breaks can't wrap anything. <br/>
-            Neither can image tags, or hard lines. <br/>
-            Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
-        </p>
+            <p>You need the following to build your website.</p>
+        
+            <div class="section_1">
+                <div>
+                    <ul>
+                        <li>HTML and CSS</li>
+                        <li>Javascript</li>
+                        <li>Node.js</li>
+                        <li>And other web development frameworks</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p>You should list your top 3 goals for the class below.</p>
+                    <ol>
+                        <li>Learn new programming langauges</li>
+                        <li>Get more familiar with web dev tools</li>
+                        <li>Become more confident in my coding skills </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="section_2">
+                <h2 class="subtitle"> Let's Try Some Inline Elements </h2>
+            
+                <p class="default">Sometimes you want to <em>draw attention to something</em> in a line of text.
+                <p class="default">Sometimes you want to <strong>strongly emphasize something</strong> in the text.</p>
+                <p class="default">Sometimes you want to <em><strong>do both</strong></em></p>
     
-        <hr>
+            </div>
+                
+            <div class="section_3">
+                <h2> Empty Elements</h2>
+
+
+                <p>
+                    Soft line breaks can't wrap anything. <br/>
+                    Neither can image tags, or hard lines. <br/>
+                    Add a hard line under here, and make sure you've used some soft line breaks to match your page to the sample.
+                </p>
+            
+                <hr>    
+            </div>
+           
+            <div class="section_4">
+                <div class="text">
+                    <h2 class="subtitle"> Images </h2>
+                    <p class="default">Include the four images in the /images folder below.</p>
         
-        <h2> Images </h2>
-        <p>Include the four images in the /images folder below.</p>
-
-        <p>Don't forget to use alt text on your images. It's important for accessibility.</p>
-
-        <img src="images/onigiri_1.png" alt="onigiri_1">
-        <img src="images/onigiri_2.png" alt="onigiri_1">
-        <img src="images/onigiri_3.png" alt="onigiri_1">
-        <img src="images/onigiri_4.png" alt="onigiri_1">
-
-        <hr>
-        <a href="https://github.com/mbroadna/INST377-Lab-Work">Include a hyperlink here to your github repository for class.</a>
-        <p>If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
+                    <p class="default">Don't forget to use alt text on your images. It's important for accessibility.</p>
+        
+                </div>
+                
+                <div class="carousel">
+                    <div class="slides">
+                        <img src="images/onigiri_1.png" alt="onigiri_1">
+                        <img src="images/onigiri_2.png" alt="onigiri_2">
+                        <img src="images/onigiri_3.png" alt="onigiri_3">
+                        <img src="images/onigiri_4.png" alt="onigiri_4">
+                    </div>
+                </div>
+            </div>
+           
+            
+            <hr>
+            <a href="https://github.com/mbroadna/INST377-Lab-Work">Include a hyperlink here to your github repository for class.</a>
+            <p>If you want your repo to be private, be sure to invite Prof A as a "collaborator."</p>
+        </div>
     </body>
     
 </html>

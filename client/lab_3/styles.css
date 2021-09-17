@@ -4,6 +4,8 @@
     box-sizing: border-box;
   }
 
+
+
   .topbar {
     color: black;
     background-color:rgba(0,139, 139,0.8);  
@@ -13,6 +15,20 @@
     font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
 
   }
+
+  a {
+    text-decoration: none;
+    padding: 2px;
+  }
+  a:visited {
+    text-decoration: none;
+    padding: 2px;
+  }
+
+  .topbar a {
+    color: white;
+  }
+  
   
   .menu-container {
     color: #fff;
@@ -27,11 +43,14 @@
     width: 900px;
     display: flex;
     justify-content: space-around;
+    border: 1px solid #fff;
   }
   
   .links {
     display: flex;
     justify-content: flex-end;
+    border: 1px solid #fff;
+
   }
   
   .login {
